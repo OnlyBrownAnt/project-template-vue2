@@ -74,8 +74,8 @@ VUE_APP_OPEN_VCONSOLE=false // 是否启用VConsole插件
 ### 环境和使用配置文件目录
 ```
 单元测试: .env.test
-开发: .env.development
-sit: .env.staging
+dev: .env.development
+staging: .env.staging
 production: .env.production 
 ```
 
