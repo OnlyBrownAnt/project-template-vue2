@@ -1,5 +1,5 @@
 # project-template-vue2
-工程模版(vue2)
+工程模版(vue2)，侧重于业务性的内容开发。对公共性的配置和要求比较多。
 
 ## 已配置模块
 - vue-router
