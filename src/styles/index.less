@@ -1,0 +1,27 @@
+@import url('./normalize.css');
+@import url('./flex.less');
+@import url('./animation.css');
+
+* {
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  background-repeat: no-repeat;
+  font-family: "PingFang SC";
+}
+
+body {
+  -webkit-overflow-scrolling: touch; // 滚动条产生滚动回弹的效果
+  -webkit-touch-callout: none; // 禁止触摸长按响应效果
+  -webkit-user-select: none; // 禁用手机浏览器的用户选择功能
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+}
